@@ -55,6 +55,11 @@ li {
     margin-right: 0px;
     text-align: center;
 }
+#kepoldalra{
+    float: left;
+    width: 20px;
+    height: 20px;
+}
 
 @media only screen and (min-width: 855px)
 {
@@ -74,7 +79,11 @@ li {
         text-align: center;
         height: 15px;
     }
-
+    #kepoldalra{
+        float: left;
+        width: 20px;
+        height: 20px;
+    }
     
 }
 @media only screen and (max-width: 600px)
@@ -82,5 +91,9 @@ li {
     .fejlec{
         width: 100%;
     }
-    
+    #kepoldalra{
+        float: left;
+        width: 20px;
+        height: 20px;
+    }
 }
