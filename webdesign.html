@@ -4,7 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/jquery-ui.min.css">
+    <link rel="stylesheet" href="css/jquery-ui.theme.min.css">
+    <link rel="stylesheet" href="css/lightbox.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>András és Tamás weboldal</title>
 </head>
 <body>
@@ -20,15 +23,36 @@
             <h1>Webdesign és webfejlesztés</h1>
                 <p>
                     Egyedi webfejlesztés előnyei: <!-- ide tab ot a jquery ből-->
-                    <ul>
-                        <li>Testreaszbottan a vállalkozás folyamatait támogatja</li>
-                        <li>Egyszerűen integrálható a cég ügymenetébe</li>
-                        <li>Bárhonnan könnyen elérhető</li>
-                        <li>Operációs rendszertől független</li>
-                        <li>Bármilyen eszközön fut</li>
-                        <li>Biztonságos lehetőséget nyújt</li>
-                        <li>A rendszer módosítása, frissítése központi szerveren történik, így egyből elérhető mindenkinek</li>
-                    </ul>
+                   <div id="accordion">
+                        <h3>Testreszabás </h3>
+                        <div>
+                            <p>Testreaszbottan a vállalkozás folyamatait támogatja</p>
+                        </div>
+                        <h3>Egyszerűség </h3>
+                        <div>
+                            <p>Egyszerűen integrálható a cég ügymenetébe</p>
+                        </div>
+                        <h3>Elérhető </h3>
+                        <div>
+                           <p>Bárhonnan könnyen elérhető</p>
+                        </div>
+                        <h3>Rendszerek </h3>
+                        <div>
+                           <p>Operációs rendszertől független</p>
+                        </div>
+                        <h3>Futása </h3>
+                        <div>
+                           <p>Bármilyen eszközön fut</p>
+                        </div>
+                        <h3>Biztonság </h3>
+                        <div>
+                           <p>Biztonságos lehetőséget nyújt</p>
+                        </div>
+                        <h3>Frissítés </h3>
+                        <div>
+                           <p>A rendszer módosítása, frissítése központi szerveren történik, így egyből elérhető mindenkinek</p>
+                        </div>
+                   </div>
                 </p>
                 <img src="images/web_design.png" alt="" srcset="">
                 <p>A Webdesign esetében teljeskörű kinézet és rendezést is vállalunk.Mindazonáltal a weblap profeszinálisabb lesz.
@@ -43,5 +67,9 @@
             </footer>
         </div>
     </div>
+    <script src="js/jquerymin.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/lightbox.js"></script>
+    <script src="js/app.js"></script>
 </body>
 </html>
