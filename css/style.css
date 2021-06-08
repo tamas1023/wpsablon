@@ -17,7 +17,7 @@ a{
      color: black   ;
 }
 body{
-    background-color: whitesmoke;
+    background-image: url("/images/web_sablon_kep.jpg");
 }
 #egesz{
     background-color: rgb(144, 128, 236);
@@ -35,7 +35,7 @@ body{
 #footer{
     background-color: brown;
     position: absolute;
-    width: 100%;
+    width: 98.9%;
     height: 5%;
 }
 #head li {
