@@ -97,12 +97,15 @@ li {
         margin: 0;
     }
     
+    
     #head{
         padding-top: 0.1px;
-        margin: 15px;
+        margin: 5px;
         text-align: center;
         height: 15px;
+        
     }
+
     #kepoldalra{
         float: left;
         width: 20px;
