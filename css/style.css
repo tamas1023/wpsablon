@@ -61,6 +61,15 @@ li {
     width: 20px;
     height: 20px;
 }
+#kepek{
+    width: 250px;
+}
+@media only screen and (max-width: 400px)
+{
+    #kepek{
+        width: 80%;
+    }
+}
 
 @media only screen and (min-width: 855px)
 {
@@ -85,6 +94,9 @@ li {
         width: 20px;
         height: 20px;
     }
+    #kepek{
+        width: 40%;
+    }
     
 }
 @media only screen and (max-width: 600px)
@@ -96,5 +108,15 @@ li {
         float: left;
         width: 20px;
         height: 20px;
+    }
+    
+    
+}
+
+@media only screen and (max-width: 1500px) and (min-width:855px)
+{
+   
+    #kepek{
+        width: 94%;
     }
 }
