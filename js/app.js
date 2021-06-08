@@ -3,3 +3,8 @@ $('#accordion').accordion({
     heightStyle: "content"
     
 })
+$('#accordion2').accordion({
+    collapsible:true,
+    heightStyle: "content"
+    
+})
