@@ -64,10 +64,23 @@ li {
 #kepek{
     width: 250px;
 }
-@media only screen and (max-width: 400px)
+#szft{
+    padding: 5px;
+    box-shadow: 1px 1px 10px gray; 
+    border: 1px black solid;
+}
+#item1 { grid-area: jobb; }
+#item2 { grid-area: bal; }
+#rendezes{
+    display: grid;
+    grid-template-areas:'jobb bal';
+    
+   padding-right: 10px;
+}
+@media only screen and (min-width: 400px)
 {
     #kepek{
-        width: 80%;
+        width: 30%;
     }
 }
 
@@ -83,6 +96,7 @@ li {
         padding: 0;
         margin: 0;
     }
+    
     #head{
         padding-top: 0.1px;
         margin: 15px;
@@ -110,7 +124,10 @@ li {
         height: 20px;
     }
     
-    
+    #rendezes{
+        display: block;
+        width: 80%;
+    }
 }
 
 @media only screen and (max-width: 1500px) and (min-width:855px)
