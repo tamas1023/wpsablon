@@ -10,7 +10,7 @@ a{
     padding-top: 0.1px;
     margin: 15px;
     text-align: center;
-    height: 100px;
+    height: 140px;
 }
 #head a{
     margin-left: 0px;
@@ -63,6 +63,10 @@ li {
 }
 #kepek{
     width: 250px;
+}
+#kiemelt
+{
+    color: rgb(197, 75, 75);
 }
 #szft{
     padding: 5px;
