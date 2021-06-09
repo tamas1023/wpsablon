@@ -17,7 +17,7 @@ a{
      color: black   ;
 }
 body{
-    background-image: url("/images/web_sablon_kep.jpg");
+    background-image: url("../images/web_sablon_kep.jpg");
 }
 #egesz{
     background-color: rgb(144, 128, 236);
