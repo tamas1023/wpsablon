@@ -34,6 +34,7 @@ body{
     height: 500px;
     background-color: whitesmoke;
     height: 80%;
+    padding: 0px 20px 20px 20px;
 }
 #footer{
     background-color: brown;
@@ -83,6 +84,9 @@ li {
     grid-template-areas:'jobb bal';
     
    padding-right: 10px;
+}
+ul{
+    padding: 0px;
 }
 @media only screen and (min-width: 400px)
 {
