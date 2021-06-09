@@ -7,3 +7,4 @@ bemutatkozás kattints ide kiemelése(mind 2)
 webdesing oldal utolsó sora tördelése 
 képek neve törlése
 web desing kép animáció
+footer kell még
